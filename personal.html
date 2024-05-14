@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="personal.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+  
+  
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav style="position: fixed;">
+      <h3 >Portfolio.</h3>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Works</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+      <p data-aos = "fade-up" data-aos-delay="0" data-aos-duration="1000">Aspiring Developer</p>
+      <h1 data-aos = "fade-up" data-aos-delay="200" data-aos-duration="1000">Hi, I'm <span>Afnan PK</span><br> From India</h1>
+    </div>
+  </div>
+</div>
+<!-- ----------about--------------- -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img data-aos = "fade-up" data-aos-delay="200" data-aos-duration="1000"src="Images/myPhot.jpg">
+          </div>
+          <div class="about-col-2" >
+            <h1 class="sub-title" data-aos = "fade-up" data-aos-delay="200" data-aos-duration="1000">About Me</h1><br><br>
+            <p data-aos = "fade-up" data-aos-delay="300" data-aos-duration="1000">Hey there! I'm Afnan, a Calicut native with a mind buzzing with code. I recently wrapped up my studies and am now immersed in a bootcamp, turning my passion for coding into real-world skills. Math and logic puzzles have always been my playground, and that's what makes coding such a thrill. It's the perfect blend of brain teasers and problem-solving, exactly what gets me going.
+            </p><br>
+            <p data-aos = "fade-up" data-aos-delay="300" data-aos-duration="1000">my ambitions don't stop at writing code. I dream of using my newfound skills to launch a thriving startup. The idea of being an entrepreneur excites me – building something from the ground up and making a real impact. Participating in science exhibitions at NIT and IIM was an incredible experience that only fueled my passion for tech. Those events were a springboard, propelling me further into this exciting world.</p> <br>
+            <p data-aos = "fade-up" data-aos-delay="300" data-aos-duration="1000">So, here I am, Afnan, a coding enthusiast on a mission to become a tech entrepreneur. The journey has just begun, and I'm eager to see where code, logic, and a touch of entrepreneurial spirit take me! </p>
+            
+          </div>
+        </div>
+    </div>
+ </div>
+
+ <!-----------------Services ---------------->
+ <div id="services">
+   <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="services-list">
+        <div data-aos = "fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <i class="fa-solid fa-code"></i>
+          <h2>Technical Skills</h2>
+          <p>Solid web development foundation with advanced proficiency in HTML, CSS, and JavaScript. Currently expanding my coding repertoire, achieving intermediate proficiency in Python and C programming languages.</p>
+        </div>
+
+        <div data-aos = "fade-up" data-aos-delay="300" data-aos-duration="1000">
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Learning Agility</h2>
+          <p>Self-driven developer with a strong foundation in web development technologies (HTML, CSS, JavaScript) acquired through independent learning and bootcamps. Eager to expand skillset and tackle new challenge</p>
+        </div>
+
+        <div data-aos = "fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <i class="fa-brands fa-app-store"></i>
+          <h2>analytical Aptitude</h2>
+          <p>Strong foundation in science and mathematics. My analytical mind thrives on tackling problems with a logical approach, fueled by a passion for learning and a drive to excel. This background translates well to efficient code development..</p>
+        </div>
+      </div>
+   </div>
+ </div>
+ <!--              Portfolio        -->
+
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list" data-aos = "fade-up" data-aos-delay="300" data-aos-duration="1000">
+
+      <div class="work" >
+        <img src="Images/linkedin.png">
+        
+      </div>
+
+      <div class="work">
+        <img src="Images/Day4_nav-bar.png">
+      </div>
+
+      
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+
+<!-----------------------Contacts-------------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me.</h1>
+        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>afnanpk8@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i> +91 9447302220</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+    
+
+    <div class="contact-right">
+      <form name="submit-to-google-sheet">
+        <input id="name" type="text" name="Name" placeholder="Your Name" required>
+        <input id="email" type="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button class="btn btn2" onclick="sendMail(event);">Submit</button>
+    </form>
+      <span id="msg" ></span>
+    </div>
+  </div>
+  </div>
+  <div class="copyright">
+    <p class="mb-0">Copyright © All Rights Reserved Afnan PK</p>
+      </div>
+</div>
+
+<script src="https://kit.fontawesome.com/50cc1f5b83.js" crossorigin="anonymous"></script>
+
+ <script>
+
+  let sidebar = document.getElementById("sidemenu");
+
+  function openmenu () {
+    sidebar.style.right = '0';
+  }
+
+  function closemenu () {
+    sidebar.style.right = '-200px'
+  }
+ </script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <script src="mail.js">
+  </script>
+
+
+</body>
+</html>
